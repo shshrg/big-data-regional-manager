@@ -1,0 +1,15 @@
+[project]
+name = "tpch-lakehouse-regional-manager"
+version = "0.1.0"
+description = "TPC-H Lakehouse (bronze / silver / gold) on Databricks for the Regional Manager profile"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.0",
+]

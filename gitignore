@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Databricks
+.databricks/
+
+# OS
+.DS_Store
+Thumbs.db
